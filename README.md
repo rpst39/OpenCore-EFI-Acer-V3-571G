@@ -1,10 +1,10 @@
 # OpenCore EFI for Acer Aspire V3-571G
 
-The wifi+bluetooth card that ships with the device is completely incompatible with macOS. Also on macOS it just refuses to enter sleep mode. Nvidia GPU is disabled as it uses Nvidia Optimus which is not supported on macOS.
+The wifi+bluetooth card that ships with the device is completely incompatible with macOS. Sleep works fine. Nvidia GPU is disabled as it uses Nvidia Optimus which is not supported on macOS.
 
 The serial number is removed.
 
-SMBIOS is MacBookPro9,2
+SMBIOS is MacBookPro11,1 to run macOS Big Sur
 
 #Specs
 
@@ -22,4 +22,4 @@ Storage:
 
 	- HL-DT-ST DVD-RAM GT70N Optical Drive
 
-OpenCore version: 0.9.9
+OpenCore version: 1.0.3

@@ -6,7 +6,7 @@ The serial number is removed.
 
 SMBIOS is MacBookPro11,1 to run macOS Big Sur
 
-#Specs
+# Specs
 
 Laptop: Acer Aspire V3-571G
 
@@ -18,7 +18,7 @@ GPU (dedicated): Nvidia GT630m (disabled)
 
 Storage:
 
-	- WDC WD5000LPCX-00VHAT0 500GB
+	- Samsung 860 Evo 250GB
 
 	- HL-DT-ST DVD-RAM GT70N Optical Drive
 

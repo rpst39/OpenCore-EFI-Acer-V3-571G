@@ -4,7 +4,9 @@ The wifi+bluetooth card that ships with the device is completely incompatible wi
 
 The serial number is removed.
 
-SMBIOS is MacBookPro11,1 to run macOS Big Sur
+SMBIOS is MacBookPro10,2.
+
+Currently using Ventura with [this](https://github.com/5T33Z0/OC-Little-Translated/blob/main/14_OCLP_Wintel/Guides/Ivy_Bridge.md) guide.
 
 # Specs
 
@@ -22,4 +24,4 @@ Storage:
 
 	- HL-DT-ST DVD-RAM GT70N Optical Drive
 
-OpenCore version: 1.0.3
+OpenCore version: 1.0.4

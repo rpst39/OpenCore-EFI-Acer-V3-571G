@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23H311</string>
+	<string>20A241133</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>SMCSuperIO</string>
+	<string>AppleIntelCPUPowerManagementClient</string>
+	<key>CFBundleGetInfoString</key>
+	<string>222.0.0, Copyright © 2005-2016 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>ru.joedm.SMCSuperIO</string>
+	<string>com.apple.driver.AppleIntelCPUPowerManagementClient</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SMCSuperIO</string>
+	<string>Intel CPU Power Management Interfaces</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.5</string>
+	<string>222.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,69 +27,59 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.5</string>
+	<string>222.0.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string></string>
+	<string>21G113</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>14.2</string>
+	<string>12.6</string>
 	<key>DTSDKBuild</key>
-	<string>23C53</string>
+	<string>21G113</string>
 	<key>DTSDKName</key>
-	<string>macosx14.2</string>
+	<string>macosx12.6.internal</string>
 	<key>DTXcode</key>
-	<string>1520</string>
+	<string>1330</string>
 	<key>DTXcodeBuild</key>
-	<string>15C500b</string>
+	<string>13E6049a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>ru.joedm.SMCSuperIO</key>
+		<key>IntelCPUPowerManagementClient</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>ru.joedm.SMCSuperIO</string>
+			<string>com.apple.driver.AppleIntelCPUPowerManagementClient</string>
 			<key>IOClass</key>
-			<string>SMCSuperIO</string>
+			<string>AppleIntelCPUPowerManagementClient</string>
 			<key>IOMatchCategory</key>
-			<string>SMCSuperIO</string>
-			<key>IOPCIClassMatch</key>
-			<string>0x06010000&amp;0xffff0000</string>
+			<string>AppleIntelCPUPowerManagementDriver</string>
+			<key>IOProbeScore</key>
+			<integer>0</integer>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleIntelCPUPowerManagement</string>
 			<key>IOResourceMatch</key>
-			<string>ACPI</string>
+			<string>IOBSD</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.6</string>
+	<string>12.6</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2018 joedm. All rights reserved.</string>
-	<key>OSBundleCompatibleVersion</key>
-	<string>1.0</string>
+	<string>Copyright © 2005-2016 Apple Inc. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
-		<key>as.vit9696.Lilu</key>
-		<string>1.2.0</string>
-		<key>as.vit9696.VirtualSMC</key>
-		<string>1.0.0</string>
-		<key>com.apple.iokit.IOACPIFamily</key>
-		<string>1.0.0d1</string>
 		<key>com.apple.kpi.bsd</key>
-		<string>10.0.0</string>
-		<key>com.apple.kpi.dsep</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.iokit</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.libkern</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.mach</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
+		<key>com.apple.kpi.private</key>
+		<string>8.0.0</string>
 		<key>com.apple.kpi.unsupported</key>
-		<string>10.0.0</string>
+		<string>8.0.0</string>
 	</dict>
-	<key>OSBundleRequired</key>
-	<string>Root</string>
 </dict>
 </plist>
